@@ -1,0 +1,21 @@
+# Union ABM Simulation Dependencies
+# Core scientific computing
+numpy>=1.24.0
+networkx>=3.0
+pandas>=2.0.0
+
+# Visualization
+matplotlib>=3.7.0
+plotly>=5.15.0
+pyvis>=0.3.2
+kaleido>=0.2.1  # For PNG export of Plotly charts
+
+# Web interface
+streamlit>=1.28.0
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0  # For experiment configuration files
+
+# Data export
+openpyxl>=3.1.0

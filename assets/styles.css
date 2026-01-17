@@ -1,0 +1,377 @@
+/* Union ABM Streamlit Dashboard - Custom CSS Styles */
+/* Light theme styling for consistent appearance */
+
+/* ============================================
+   BASE APP STYLING
+   ============================================ */
+
+/* Force light theme for entire app */
+.stApp {
+    background-color: #ffffff !important;
+    color: #262730 !important;
+}
+
+/* Main content area */
+.main .block-container {
+    background-color: #ffffff !important;
+}
+
+/* ============================================
+   METRICS STYLING
+   ============================================ */
+
+.stMetric {
+    background-color: #f0f2f6;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.stMetric>div {
+    color: #262730 !important;
+}
+
+.stMetric label {
+    color: #262730 !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: #262730 !important;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #262730 !important;
+}
+
+[data-testid="stMetricDelta"] {
+    color: #262730 !important;
+}
+
+/* ============================================
+   CUSTOM HEADER CLASSES
+   ============================================ */
+
+.main-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1f77b4;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.sub-header {
+    font-size: 1.2rem;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* ============================================
+   SIDEBAR STYLING
+   ============================================ */
+
+[data-testid="stSidebar"] {
+    background-color: #f8f9fa !important;
+}
+
+[data-testid="stSidebar"]>div:first-child {
+    background-color: #f8f9fa !important;
+}
+
+[data-testid="stSidebar"] .stMarkdown {
+    color: #262730 !important;
+}
+
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3,
+[data-testid="stSidebar"] h4 {
+    color: #262730 !important;
+}
+
+[data-testid="stSidebar"] label {
+    color: #262730 !important;
+}
+
+[data-testid="stSidebar"] .stSlider label {
+    color: #262730 !important;
+}
+
+[data-testid="stSidebar"] p {
+    color: #262730 !important;
+}
+
+/* ============================================
+   TEXT AND TYPOGRAPHY
+   ============================================ */
+
+.stMarkdown,
+p,
+span,
+label,
+div {
+    color: #262730 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #262730 !important;
+}
+
+/* ============================================
+   INPUT FIELDS
+   ============================================ */
+
+/* Number input */
+.stNumberInput label {
+    color: #262730 !important;
+}
+
+.stNumberInput input {
+    background-color: #ffffff !important;
+    color: #262730 !important;
+    border: 1px solid #d1d5db !important;
+}
+
+/* Text input */
+.stTextInput label {
+    color: #262730 !important;
+}
+
+.stTextInput input {
+    background-color: #ffffff !important;
+    color: #262730 !important;
+    border: 1px solid #d1d5db !important;
+}
+
+/* ============================================
+   SLIDER STYLING
+   ============================================ */
+
+.stSlider label {
+    color: #262730 !important;
+}
+
+.stSlider [data-testid="stTickBarMin"],
+.stSlider [data-testid="stTickBarMax"] {
+    color: #262730 !important;
+}
+
+/* Slider current value display */
+[data-testid="stThumbValue"] {
+    background-color: #1f77b4 !important;
+    color: #ffffff !important;
+}
+
+/* Widget labels with info icons */
+.stSlider>label>div,
+.stNumberInput>label>div,
+.stSelectbox>label>div {
+    color: #262730 !important;
+}
+
+/* ============================================
+   SELECT BOX / DROPDOWN
+   ============================================ */
+
+.stSelectbox label {
+    color: #262730 !important;
+}
+
+.stSelectbox>div>div {
+    background-color: #ffffff !important;
+    color: #262730 !important;
+}
+
+/* Select dropdown menu */
+[data-baseweb="menu"],
+[data-baseweb="select"] [data-baseweb="menu"] {
+    background-color: #ffffff !important;
+}
+
+[data-baseweb="menu"] li,
+[data-baseweb="menu"] div {
+    background-color: #ffffff !important;
+    color: #262730 !important;
+}
+
+[data-baseweb="menu"] li:hover {
+    background-color: #f0f2f6 !important;
+}
+
+/* ============================================
+   CHECKBOX AND RADIO BUTTONS
+   ============================================ */
+
+.stCheckbox label {
+    color: #262730 !important;
+}
+
+.stRadio label {
+    color: #262730 !important;
+}
+
+.stRadio>div {
+    color: #262730 !important;
+}
+
+/* ============================================
+   TABS STYLING
+   ============================================ */
+
+.stTabs [data-baseweb="tab-list"] {
+    background-color: #ffffff !important;
+}
+
+.stTabs [data-baseweb="tab"] {
+    color: #262730 !important;
+}
+
+.stTabs [aria-selected="true"] {
+    color: #1f77b4 !important;
+}
+
+/* ============================================
+   BUTTONS
+   ============================================ */
+
+.stButton button {
+    color: #262730 !important;
+    background-color: #f0f2f6 !important;
+    border: 1px solid #d1d5db !important;
+}
+
+.stButton button:hover {
+    background-color: #e0e2e6 !important;
+    border-color: #1f77b4 !important;
+}
+
+.stButton button[kind="primary"] {
+    background-color: #1f77b4 !important;
+    color: #ffffff !important;
+}
+
+/* Download button */
+.stDownloadButton button {
+    color: #262730 !important;
+    background-color: #f0f2f6 !important;
+}
+
+/* ============================================
+   EXPANDER
+   ============================================ */
+
+.streamlit-expanderHeader {
+    color: #262730 !important;
+    background-color: #f8f9fa !important;
+}
+
+/* ============================================
+   ALERTS AND MESSAGES
+   ============================================ */
+
+.stAlert {
+    color: #262730 !important;
+}
+
+/* ============================================
+   FILE UPLOADER
+   ============================================ */
+
+.stFileUploader label {
+    color: #262730 !important;
+}
+
+/* ============================================
+   PROGRESS BAR
+   ============================================ */
+
+.stProgress>div>div {
+    color: #262730 !important;
+}
+
+/* ============================================
+   DATAFRAME / TABLE
+   ============================================ */
+
+.stDataFrame {
+    color: #262730 !important;
+}
+
+/* ============================================
+   PLOTLY CHARTS
+   ============================================ */
+
+.js-plotly-plot .plotly {
+    background-color: #ffffff !important;
+}
+
+/* ============================================
+   TOOLTIPS AND HELP ICONS
+   ============================================ */
+
+/* Help icons (?) */
+[data-testid="stTooltipIcon"] {
+    color: #1f77b4 !important;
+}
+
+/* Tooltip popover content */
+[data-testid="stTooltipContent"],
+[data-baseweb="tooltip"],
+[data-baseweb="popover"] {
+    background-color: #ffffff !important;
+    color: #262730 !important;
+    border: 1px solid #d1d5db !important;
+}
+
+[data-baseweb="tooltip"] div,
+[data-baseweb="popover"] div {
+    background-color: #ffffff !important;
+    color: #262730 !important;
+}
+
+/* BaseWeb tooltip body */
+[data-baseweb="tooltip"] [data-baseweb="typo-paragraphsmall"],
+[data-baseweb="popover"] [data-baseweb="typo-paragraphsmall"] {
+    color: #262730 !important;
+}
+
+/* Streamlit tooltip hover */
+.stTooltipIcon+div,
+div[data-testid="stMarkdownContainer"]+div[role="tooltip"] {
+    background-color: #ffffff !important;
+    color: #262730 !important;
+}
+
+/* Generic tooltip styling */
+[role="tooltip"] {
+    background-color: #ffffff !important;
+    color: #262730 !important;
+    border: 1px solid #d1d5db !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+}
+
+[role="tooltip"] * {
+    background-color: #ffffff !important;
+    color: #262730 !important;
+}
+
+/* Popover and modal backgrounds */
+[data-baseweb="popover"]>div {
+    background-color: #ffffff !important;
+}
+
+[data-baseweb="popover"] [data-baseweb="block"] {
+    background-color: #ffffff !important;
+    color: #262730 !important;
+}
+
+/* Help text styling */
+.stHelp,
+.stTooltip {
+    background-color: #ffffff !important;
+    color: #262730 !important;
+}

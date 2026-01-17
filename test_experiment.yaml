@@ -1,0 +1,30 @@
+name: alpha_sweep_experiment
+description: Investigating the effect of organizing strategy (alpha) on campaign success
+parameter_ranges:
+  alpha:
+  - 0.0
+  - 0.5
+  - 1.0
+  contagion_power:
+  - 1.0
+  - 2.0
+fixed_parameters:
+  n_departments: 5
+  agents_per_dept: 20
+  p_in: 0.4
+  p_out: 0.05
+  seed_size: 3
+  beta: 0.3
+  delta: 0.01
+  omega: 0.8
+  mobilizing_threshold: 0.3
+  persistence_threshold: 3
+  outreach_energy: 0.5
+  broadcast_energy: 0.01
+  broadcast_reach_ratio: 0.75
+  organizer_potential_ratio: 0.2
+n_trials: 5
+n_ticks: 100
+base_seed: 42
+output_dir: output/experiments
+snapshot_config: null
