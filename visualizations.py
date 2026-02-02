@@ -12,7 +12,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import pandas as pd
-import numpy as np
+import numpy as npt
 import streamlit as st
 
 from union_abm.engine import UnionSim, AgentState
