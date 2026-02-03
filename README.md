@@ -4,13 +4,13 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-An Agent-Based Model (ABM) simulating labor organizing dynamics based on **Jane McAlevey's organizing theory**, distinguishing between *Organizing* (deep relationship building) and *Mobilizing* (broadcast activation) strategies. The model features sophisticated energy dynamics with **organizer demotion mechanics**, **energy gradient tracking**, and comprehensive **batch experiment capabilities** for parameter sweeps.
+An Agent-Based Model (ABM) simulating labor organizing dynamics based on **Jane McAlevey's organizing theory**, distinguishing between *Organizing* (deep relationship building) and *Mobilizing* (broadcast activation) strategies. The model features energy dynamics with **organizer demotion mechanics**, **energy gradient tracking**, and **batch experiment capabilities** for parameter sweeps.
 
 ## 📚 Theoretical Background
 
 ### McAlevey's Framework
 
-Jane McAlevey's work distinguishes between two approaches to building worker power:
+Jane McAlevey's work distinguishes between two approaches to building worker power that we have modelized as follows:
 
 1. **Organizing**: Deep, 1-to-1 relationship building that develops new leaders from the base. Creates structural power that persists even when external support is withdrawn.
 
@@ -26,8 +26,6 @@ This ABM operationalizes McAlevey's concepts through:
 - **Strategy Parameter (α)**: Controls the organizing-mobilizing mix with scaled broadcast energy
 - **Persistence Gate**: Sustained energy thresholds required for both promotion AND demotion of organizers
 - **Parameter Validation**: Built-in checks for strategy balance and decay calibration
-
-
 
 ## 🚀 Quick Start
 

@@ -22,6 +22,10 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+*.odt
+*.pdf
+notebooks/figures/
+notebooks/data/
 
 # Virtual environments
 .venv/
