@@ -128,7 +128,8 @@ Where:
    - Prevents "super-mobilized" agents who never become organizers
 
 3. **Energy Gradient**: Track total network energy change per tick:
-   $$\Delta E_{\text{total}} = \sum_i \left( \Delta E_{\text{outreach},i} + \beta (\bar{E}_{\text{engaged},i})^p - \delta(1 - \bar{E}_{\text{engaged},i}) \right)$$
+
+$$\Delta E_{\text{total}} = \sum_i \left( \Delta E_{\text{outreach},i} + \beta (\bar{E}_{\text{engaged},i})^p - \delta(1 - \bar{E}_{\text{engaged},i}) \right)$$
 
 
 
